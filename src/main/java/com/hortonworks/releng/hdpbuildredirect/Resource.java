@@ -53,8 +53,8 @@ public class Resource {
   static {
     REPO_FILES.put( "centos5", "hdpbn.repo" );
     REPO_FILES.put( "centos6", "hdpbn.repo" );
-    REPO_FILES.put( "suse11", "hdpbn.repo" );
-    REPO_FILES.put( "ubuntu12", "hdpbn.repo" );
+    REPO_FILES.put( "suse11", "hdp.repo" );
+    REPO_FILES.put( "ubuntu12", "hdp.list" );
   }
 
   private static Client client = ClientBuilder.newClient().register( JacksonJsonProvider.class );
